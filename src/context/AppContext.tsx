@@ -84,6 +84,10 @@ interface AppContextType {
   isPaymentModalOpen: boolean;
   setIsPaymentModalOpen: (open: boolean) => void;
 
+  // QR Modal
+  isQrModalOpen: boolean;
+  setIsQrModalOpen: (open: boolean) => void;
+
   // Copy helper
   copiedText: string | null;
   copyToClipboard: (text: string, label: string) => void;
@@ -251,6 +255,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const [completedOrder, setCompletedOrder] = useState<Order | null>(null);
   const [isPaymentModalOpen, setIsPaymentModalOpen] = useState<boolean>(false);
+  const [isQrModalOpen, setIsQrModalOpen] = useState<boolean>(false);
   const [copiedText, setCopiedText] = useState<string | null>(null);
 
   const copyToClipboard = (text: string, label: string) => {
@@ -491,6 +496,8 @@ ${itemsList}
         isFavorite,
         isPaymentModalOpen,
         setIsPaymentModalOpen,
+        isQrModalOpen,
+        setIsQrModalOpen,
         copiedText,
         copyToClipboard,
       }}

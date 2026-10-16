@@ -7,6 +7,7 @@ import { Header } from './components/Header';
 import { OrderSuccessModal } from './components/OrderSuccessModal';
 import { PaymentInfoModal } from './components/PaymentInfoModal';
 import { ProductDetailModal } from './components/ProductDetailModal';
+import { QrCodeModal } from './components/QrCodeModal';
 import { SplashScreen } from './components/SplashScreen';
 import { ExploreTab } from './components/tabs/ExploreTab';
 import { FavoritesTab } from './components/tabs/FavoritesTab';
@@ -98,6 +99,7 @@ const MainAppContent: React.FC = () => {
             <ProductDetailModal />
             <PaymentInfoModal />
             <OrderSuccessModal />
+            <QrCodeModal />
           </div>
         </motion.div>
       )}

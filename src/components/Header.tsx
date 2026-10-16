@@ -5,6 +5,7 @@ import {
   Home,
   MapPin,
   Moon,
+  QrCode,
   ShoppingBag,
   Sun,
 } from 'lucide-react';
@@ -22,6 +23,7 @@ export const Header: React.FC = () => {
     selectedDistrict,
     setSelectedDistrict,
     setIsPaymentModalOpen,
+    setIsQrModalOpen,
   } = useApp();
 
   return (
@@ -74,6 +76,16 @@ export const Header: React.FC = () => {
             className="p-2 rounded-xl text-slate-500 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-300 hover:bg-purple-50 dark:hover:bg-slate-800 transition-colors"
           >
             <CreditCard size={18} />
+          </button>
+
+          {/* QR Code Modal Trigger */}
+          <button
+            onClick={() => setIsQrModalOpen(true)}
+            aria-label="Ver código QR del sistema"
+            title="Código QR del Sistema"
+            className="p-2 rounded-xl text-slate-500 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-300 hover:bg-purple-50 dark:hover:bg-slate-800 transition-colors"
+          >
+            <QrCode size={18} />
           </button>
 
           {/* Theme Toggle */}
