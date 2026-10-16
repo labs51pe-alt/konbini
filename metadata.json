@@ -1,0 +1,6 @@
+{
+  "name": "KONBINI Market - Catálogo Móvil & Delivery WhatsApp Huancayo",
+  "description": "Catálogo interactivo móvil estilo Rappi/PedidosYa para KONBINI Market en Huancayo. Snacks coreanos y asiáticos, ramen, bebidas y pedidos directos por WhatsApp con Yape y BCP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
