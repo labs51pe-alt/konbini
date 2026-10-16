@@ -298,7 +298,7 @@ export const HomeTab: React.FC = () => {
           </div>
 
           <img
-            src="/src/assets/images/konbini_white_rabbit_candy_1792167143543.jpg"
+            src="/images/konbini_white_rabbit_candy_1792167143543.jpg"
             alt="White Rabbit Candy"
             className="absolute right-0 top-0 bottom-0 w-44 object-cover object-left mask-gradient-left group-hover:scale-105 transition-transform duration-500"
           />

@@ -17,27 +17,27 @@ import { KonbiniLogo } from './KonbiniLogo';
 const KOREA_PHOTOS = [
   {
     id: 'korea-store',
-    image: '/src/assets/images/korean_night_konbini_1792173001195.jpg',
+    image: '/images/korean_night_konbini_1792173001195.jpg',
   },
   {
     id: 'korean-snacks',
-    image: '/src/assets/images/korean_viral_snacks_1792173014616.jpg',
+    image: '/images/korean_viral_snacks_1792173014616.jpg',
   },
   {
     id: 'buldak-carbonara',
-    image: '/src/assets/images/konbini_buldak_carbonara_1792167126441.jpg',
+    image: '/images/konbini_buldak_carbonara_1792167126441.jpg',
   },
   {
     id: 'tteokbokki',
-    image: '/src/assets/images/korean_tteokbokki_snack_1792173000590.jpg',
+    image: '/images/korean_tteokbokki_snack_1792173000590.jpg',
   },
   {
     id: 'jinro-soju',
-    image: '/src/assets/images/konbini_soju_jinro_strawberry_1792167127107.jpg',
+    image: '/images/konbini_soju_jinro_strawberry_1792167127107.jpg',
   },
   {
     id: 'shin-ramyun',
-    image: '/src/assets/images/konbini_shin_ramyun_spicy_1792167126979.jpg',
+    image: '/images/konbini_shin_ramyun_spicy_1792167126979.jpg',
   },
 ];
 
